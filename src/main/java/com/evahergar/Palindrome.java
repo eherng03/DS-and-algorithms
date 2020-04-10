@@ -7,10 +7,11 @@ public class Palindrome {
 
 
     /***
-     * Write a function to generate all valid nested parenetis for a given value N. So for example:
-     * If N = 1: "()"
-     * if N = 2: "()()", "(())"
-     * if N = 3: "()()()","()(())","(())()","(()())","((()))"
+     * Given a string of lowercase letters in the range ascii[a-z], determine a character
+     * that can be removed to make the string a palindrome. There may be more than one
+     * solution, but any will do. For example, if your string is "bcbc", you can either
+     * remove 'b' at index  or 'c' at index . If the word is already a palindrome or there
+     * is no solution, return -1. Otherwise, return the index of a character to remove.
      * @param args
      */
     public static void main(String[] args) {
